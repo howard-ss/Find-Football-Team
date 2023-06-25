@@ -1,4 +1,4 @@
-# study-buddy-4000
+# study-buddy by Team-Spirit
 
 file-tree:
 
