@@ -28,7 +28,7 @@ function Login(props) {
       
       <img
         className="loginBg"
-        src="/studying.jpg"
+        src="/study.jpg"
         width="500"
         height="350"
       ></img>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 .header {
     font-family: 'Limelight', cursive;
-    color: #7ac8fb;
+    color: indigo;
     
     /* position: absolute; */
     top: 0;
@@ -162,7 +162,7 @@
 }
 
 .loginBg {
-    /* background-image: url('/public/studying.jpg'); */
+    /* background-image: url('/public/study.jpg'); */
     /* background-size: 300px 100px; */
     border-radius: 0.625rem;
 }
