@@ -5,7 +5,7 @@
 -- Dumped from database version 11.3 (Ubuntu 11.3-1.pgdg18.04+1)
 -- Dumped by pg_dump version 11.5
 
--- Started on 2019-09-11 16:56:10 PDT
+
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -124,27 +124,27 @@ INSERT INTO public.users (first_name, last_name, user_name, user_password, user_
 INSERT INTO public.users (first_name, last_name, user_name, user_password, user_email, user_location) VALUES ('Heidi', 'Bang', 'hbang', 'password', 'hbang@gmail.com', 'California');
 
 
-INSERT INTO public.schools ("school_name", "school_location") VALUES ('Codesmith', 'Venice');
-INSERT INTO public.schools ("school_name", "school_location") VALUES ('PCC', 'Pasadena');
-INSERT INTO public.schools ("school_name", "school_location") VALUES ('Bama', 'Tuscaloosa');
-INSERT INTO public.schools ("school_name", "school_location") VALUES ('UMich', 'Ann Arbor');
-INSERT INTO public.schools ("school_name", "school_location") VALUES ('Harvard', 'Cambridge');
+INSERT INTO public.schools ("school_name", "school_location") VALUES ('CYF', 'London');
+INSERT INTO public.schools ("school_name", "school_location") VALUES ('CYF', 'Manchester City');
+INSERT INTO public.schools ("school_name", "school_location") VALUES ('CYF', 'Birmingham');
+INSERT INTO public.schools ("school_name", "school_location") VALUES ('CYF', 'Glasgow');
+INSERT INTO public.schools ("school_name", "school_location") VALUES ('CYF', 'South Africa');
 
 
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('COMP101', 'Javascript Fundamentals', 1);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('COMP201', 'Intro to Node', 1);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('COMP401', 'Back-end', 1);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('HIST101', 'History', 2);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('HIST404', 'Advanced History', 2);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('Psych101', 'Psychology', 2);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('MATH101', 'Intro to Math', 3);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('MATH201', 'Algebra', 3);
-INSERT INTO public.classes (class_name, subject, school_id) VALUES ('MATH305', 'Linear Equations', 3);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON9LOVELACE', 'Javascript', 1);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON9TRUNING', 'REACT', 1);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON10EAGLE', 'HTML', 1);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON10BARRY', 'CSS', 2);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON8', 'SQL', 2);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON7', 'PROJECT', 2);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON6', 'NODE', 3);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON5', 'POSTGRESQL', 3);
+INSERT INTO public.classes (class_name, subject, school_id) VALUES ('LON4', 'CV', 3);
 
 
-INSERT INTO public.events (event_name, event_location, class_id) VALUES ('Coding party', 'Starbucks', 1);
-INSERT INTO public.events (event_name, event_location, class_id) VALUES ('Study history', 'Hogwarts Library', 2);
-INSERT INTO public.events (event_name, event_location, class_id) VALUES ('Do math stuff', 'Venice Beach', 3);
+INSERT INTO public.events (event_name, event_location, class_id) VALUES ('Coding party', 'Forth', 1);
+INSERT INTO public.events (event_name, event_location, class_id) VALUES ('Study history', 'Barbican Library', 2);
+INSERT INTO public.events (event_name, event_location, class_id) VALUES ('Do math stuff', 'MVF', 3);
 
 
 INSERT INTO public.schoolsubs (user_id, school_id) VALUES (1, 1);
