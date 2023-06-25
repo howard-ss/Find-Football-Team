@@ -53,7 +53,7 @@ class App extends Component {
         <AppContext.Provider value={this.state}>
           <div className="header">
             <img className = "logo" src="/owl.png"/>
-            <h1>Study Buddy Finder</h1>
+            <h1>Study Buddy</h1>
             
           </div>
           <Switch>
