@@ -23,7 +23,6 @@ router.get("/users", usersController.getAllUsers, (req, res) => {
   return res.status(200).json(res.locals.users);
 });
 
-
 //------POST-----
 //post route for create user, set body.first_name, last_name, user_name, user_password, user_email, user_location
 router.post("/users", usersController.createUser, (req, res) => {
@@ -120,7 +119,7 @@ router.delete(
   }
 );
 
-//-------------------------------Events---------------------------------------------
+//-------------------------------Events----------------------------------------
 //-------GET-----
 //get route for all events
 router.get("/events", eventsController.getAllEvents, (req, res) => {
