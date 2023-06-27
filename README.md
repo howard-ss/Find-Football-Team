@@ -1,4 +1,4 @@
-# study-buddy by Team-Spirit
+# FindStudyBuddy by Team-Spirit
 
 file-tree:
 
