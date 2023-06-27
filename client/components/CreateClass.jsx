@@ -24,7 +24,7 @@ function CreateClass() {
     <div className="classForm">
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>Name</label>
-        <input name="class_name" placeholder="Class Name" ref={register} />
+        <input name="class_name" placeholder="class Name" ref={register} />
 
         <label>Subject</label>
         <input name="subject" placeholder="Subject" ref={register} />

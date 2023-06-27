@@ -74,18 +74,18 @@ export default function EventProfile(props) {
         <p>Class: {classInfo[0]["class_name"]}</p>
         {/* <p>Subject: {classInfo[0]["subject"]}</p> */}
         <p>Time: 8 pm</p>
-        <p>Capacity: 35</p>
-        <p>Host: Codesmith</p>
+        <p>Capacity: 15</p>
+        <p>Host: CYF</p>
         <button className = "generic_button" onClick = {()=>{subscribeToEvent(user.user_id, currentEvent_id)}}>Subscribe to event</button>
       </div>
       <div className="item2">
         <div>
           Study session on frontend react hooks happening today!
           <p>
-            During this free workshop we'll explore the most popular
+            During this session we'll explore the most popular
             Object-oriented programming patterns in JavaScript and learn how the
             'this' and 'new' keywords are working under-the-hood with the
-            prototype chain. All experience levels welcome!
+            prototype chain. All trainees welcome!
           </p>
         </div>
       </div>
@@ -98,11 +98,6 @@ export default function EventProfile(props) {
             </span>
           );
         })}
-        {/* <img
-          src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png"
-          width="50"
-          height="50"
-        ></img> */}
       </div>
       <div className="item4">
         <div>

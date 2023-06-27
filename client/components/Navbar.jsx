@@ -8,7 +8,7 @@ export default function Navbar() {
       <button className="navbar_item">
         <Link className="navbar_link" to={`${match.path}/`}>Home</Link>
       </button>
-      <input placeholder="Search.."></input>
+      <input placeholder="Search..."></input>
       <button className="navbar_item">
         <Link className="navbar_link" to={`${match.path}/userpage`}>Profile</Link>
       </button>

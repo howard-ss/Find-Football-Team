@@ -23,10 +23,10 @@ function CreateSchool() {
     <div className="schoolForm">
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>Name</label>
-        <input name="school_name" placeholder="School Name" ref={register} />
+        <input name="school_name" placeholder="Cohort Name" ref={register} />
 
         <label>Location</label>
-        <input name="school_location" placeholder="School Location" ref={register} />
+        <input name="school_location" placeholder="Cohort Location" ref={register} />
 
         <input type="submit"></input>
       </form>

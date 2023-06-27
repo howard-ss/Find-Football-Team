@@ -78,7 +78,7 @@ function EventLanding() {
           to={`${match.path}/createevent`}
           key={Math.random() * 1000}
         >
-          <button className="generic_button">Create New Event</button>
+          <button className="generic_button">Create New study group</button>
         </Link>
       </div>
     </div>

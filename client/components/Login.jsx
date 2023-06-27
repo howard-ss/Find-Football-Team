@@ -25,7 +25,6 @@ function Login(props) {
 
   return (
     <div className="loginPage">
-      
       <img
         className="loginBg"
         src="/study.jpg"
@@ -47,9 +46,11 @@ function Login(props) {
         </form>
         Not registered?
         <br/>
-        <Link className = "signup_link" to="/signup">Create an Account</Link>
         <br/>
-        <Link className = "signup_link" to="/homepage"> Continue as Guest </Link>
+        <Link className = "signup_link" to="/signup"><strong>Create an Account</strong></Link>
+        <br/>
+        <br/>
+        <Link className = "signup_link" to="/homepage"><strong>Continue as Guest</strong> </Link>
       </div>
     </div>
   );

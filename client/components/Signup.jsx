@@ -38,8 +38,8 @@ function Signup(props) {
         <form onSubmit={handleSubmit(onSubmit)}>
 
           <label>Name</label>
-          <input name="first_name" placeholder="First" ref={register} />
-          <input name="last_name" placeholder="Last" ref={register} />
+          <input name="first_name" placeholder="First Name" ref={register} />
+          <input name="last_name" placeholder="Surname" ref={register} />
 
           <label>Username</label>
           <input name="user_name"  ref={register} />

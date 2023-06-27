@@ -30,7 +30,7 @@ function Sidebar() {
   return (
     <div className="sidebar_container">
       <div className="sidebar_subcontainer">
-        <div className="sidebar_title">School</div>
+        <div className="sidebar_title">Cohort</div>
         {schools.map((school) => {
           return (
             <Link
@@ -57,7 +57,7 @@ function Sidebar() {
           to={`${match.path}/createschool`}
           key={Math.random() * 1000}
         >
-          <button className="sidebar_button">Add new School</button>
+          <button className="sidebar_button">Add new Cohort</button>
         </Link>
       </div>
       <div className="sidebar_subcontainer">

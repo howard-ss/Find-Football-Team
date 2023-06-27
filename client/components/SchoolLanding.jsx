@@ -39,11 +39,11 @@ function SchoolLanding() {
             subscribeToSchool(user.user_id, currentSchool_id);
           }}
         >
-          Subscribe to school!
+          Subscribe to group!
         </button>
       </div>
       <div className="schoollanding_schooldescription">
-        <p>School description: A fine school</p>
+        <p>School description: A fine cohort</p>
       </div>
     </div>
   );
