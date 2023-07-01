@@ -1,4 +1,4 @@
-# FindStudyBuddy by Team-Spirit
+# Find A Football Team to play with CYF
 
 file-tree:
 
